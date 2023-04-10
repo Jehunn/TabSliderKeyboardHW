@@ -1,0 +1,26 @@
+#container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+  }
+  
+  #image {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  
+  #game-over-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 20, 203);
+    opacity: 0.5;
+  }
+  
+  
